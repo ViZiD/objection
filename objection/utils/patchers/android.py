@@ -182,7 +182,7 @@ class AndroidPatcher(BasePlatformPatcher):
     """ Class used to patch Android APK's"""
 
     required_commands = {
-        'aapt': {
+        'aapt2': {
             'installation': 'apt install aapt (Kali Linux)'
         },
         'adb': {

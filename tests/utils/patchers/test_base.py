@@ -48,7 +48,7 @@ class TestBasePlatformPatcher(unittest.TestCase):
 
         base_patcher = BasePlatformPatcher()
         base_patcher.required_commands = {
-            'aapt': {
+            'aapt2': {
                 'installation': 'apt install aapt (Kali Linux)'
             }
         }
@@ -65,7 +65,7 @@ class TestBasePlatformPatcher(unittest.TestCase):
 
         base_patcher = BasePlatformPatcher()
         base_patcher.required_commands = {
-            'aapt': {
+            'aapt2': {
                 'installation': 'apt install aapt (Kali Linux)'
             }
         }
